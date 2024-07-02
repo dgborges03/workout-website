@@ -1,0 +1,103 @@
+/*
+    Author: Donavan Borges
+    CS 132 Spring 2024
+    Date: June 19, 2024
+
+    This is the generator.css file for my fitness logger and generator app. It is used by
+    the generate workout page for my application.
+*/
+
+.main-content, #workout-display-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+}
+
+.main-content {
+    overflow-y: scroll;
+}
+
+.form-container, #workout-display-section {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.form-container h2, #workout-display-section h3 {
+    color: #faefc5;
+    font-size: 18pt;
+}
+
+.form-container label, #workout-controls label {
+    display: block;
+    margin-top: 10px;
+    color: #cccccc;
+}
+
+.form-container select, .form-container button, #workout-controls input[type="text"], 
+#workout-controls button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+}
+
+.form-container button, #workout-controls button {
+    cursor: pointer;
+    background-color: #444444;
+    transition: background-color 0.3s ease;
+}
+
+.form-container button:hover, #workout-controls button:hover {
+    background-color: #555555;
+}
+
+#workout-display-section {
+    display: none
+}
+
+#workout-display-section.visible {
+    display: block;
+}
+
+#workout-list, #workout-list li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#workout-list li {
+    background-color: #333333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#workout-list .exercise-card {
+    background-color: #444444;
+    border-radius: 8px;
+    padding: 15px;
+    color: #cccccc;
+}
+
+#message-box {
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 4px;
+    display: none;
+}
+
+#message-box.visible {
+    display: block;
+}
+
+#workout-controls {
+    margin-top: 20px;
+}

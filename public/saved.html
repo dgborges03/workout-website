@@ -1,0 +1,74 @@
+ <!--
+     Author: Donavan Borges
+     CS 132 Spring 2024
+     Date: June 19, 2024
+
+     This is the saved.html page for my fitness logger and generator app, FitLog. 
+     This serves as the saved workouts page for my application.
+
+     \(G_G)/
+        |
+        |
+       /\
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FitLog - Saved</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="saved.css">
+    <script src="saved.js" defer></script>
+</head>
+<body>
+    <aside class="sidebar">
+        <header>
+            <h1>FitLog</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="generator.html">Generate Workout</a></li>
+                <li><a href="saved.html">Saved Workouts</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <a href="index.html" id="logout-link" class="sign-out">Sign Out</a>
+        </footer>
+    </aside>
+    <section class="main-content">
+        <div class="saved-workouts-container">
+            <h2>Saved Workouts</h2>
+            <button id="add-workout-btn">Add Your Own Workout</button>
+            <div id="custom-workout-form" class="hidden">
+                <h3>Add Your Custom Workout</h3>
+                <form id="add-workout-form">
+                    <label for="workout-name">Workout Name:</label>
+                    <input type="text" id="workout-name" name="workout-name" required>
+    
+                    <label for="exercise-names">Exercise Names (comma separated):</label>
+                    <input type="text" id="exercise-names" name="exercise-names" required>
+    
+                    <button id="save-workout-btn">Save Workout</button>
+                    <button id="cancel-workout-btn">Cancel</button>
+                </form>
+            </div>
+        </div>
+        <div id="saved-workouts-wrapper">
+            <ul id="saved-workouts-list">
+                <!-- Workouts will be populated here -->
+            </ul>
+        </div>
+        <div id="message-box" class="hidden"></div>
+    </section>
+    <template id="add-exercise-form-template">
+        <form class="add-exercise-form">
+            <label for="new-exercise-name">Exercise Name:</label>
+            <input type="text" class="new-exercise-name" required>
+            <button class="submit-exercise-btn">Add</button>
+            <button class="cancel-exercise-btn">Cancel</button>
+        </form>
+    </template>
+</body>
+</html>

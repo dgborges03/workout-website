@@ -1,0 +1,81 @@
+ <!--
+     Author: Donavan Borges
+     CS 132 Spring 2024
+     Date: June 19, 2024
+
+     This is the generator.html page for my fitness logger and generator app, FitLog. 
+     This serves as the workout generator page for my application.
+
+     \(G_G)/
+        |
+        |
+       /\
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FitLog - Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="generator.css">
+    <script src="generator.js" defer></script>
+</head>
+<body>
+    <aside class="sidebar">
+        <header>
+            <h1>FitLog</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="generator.html">Generate Workout</a></li>
+                <li><a href="saved.html">Saved Workouts</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <a href="index.html" id="logout-link" class="sign-out">Sign Out</a>
+        </footer>
+    </aside>
+    <section class="main-content">
+        <div class="form-container">
+            <form id="workout-generator-form">
+                <h2>Generate Your Workout</h2>
+                <label for="category">Select Workout Category:</label>
+                <select id="category" name="category">
+                    <option value="strongman">Strongman</option>
+                    <option value="olympic weightlifting">Olympic Weightlifting</option>
+                    <option value="powerlifting">Powerlifting</option>
+                    <option value="stretching">Stretching</option>
+                    <option value="strength">Strength / Bodybuilding</option>
+                    <option value="plyometrics">Plyometrics</option>
+                    <option value="cardio">Cardio</option>
+                </select>
+
+                <label for="location">Workout Location:</label>
+                <select id="location" name="location">
+                    <option value="home">Home</option>
+                    <option value="gym">Gym</option>
+                </select>
+                <button id="generate-workout-btn">Generate Workout</button>
+            </form>
+        </div>
+        <section id="workout-display-section">
+            <div id="generated-workout">
+                <h3>Your Custom Workout Plan</h3>
+                <ul id="workout-list">
+                    <!-- Workout exercises will be populated here -->
+                </ul>
+            </div>
+            <div id="workout-controls">
+                <form id="save-workout-form">
+                    <label for="workout-name">Name Your Workout:</label>
+                    <input type="text" id="workout-name" name="workout-name" required>
+                    <div id="message-box" class="hidden"></div>
+                    <button id="save-workout-btn">Save Workout</button>
+                </form>
+            </div>
+        </section>
+    </section>
+</body>
+</html>

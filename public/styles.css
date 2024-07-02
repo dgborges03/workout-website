@@ -1,0 +1,93 @@
+/*
+    Author: Donavan Borges
+    CS 132 Spring 2024
+    Date: June 19, 2024
+
+    This is the styles.css file for my fitness logger and generator app. It is used by
+    all my pages for my application.
+*/
+
+* {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scrollbar-color: #555555 #333333;
+}
+
+body, html {
+    height: 100%;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body {
+    display: flex;
+}
+
+aside.sidebar {
+    width: 20%;
+    background-color: #1e1e1e;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1 {
+    margin: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+nav li a:hover {
+    background: #555555;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .sign-out {
+    text-decoration: none;
+    color: #ffffff;
+    display: block;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+footer .sign-out:hover {
+    background: #555555;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+    overflow-y:scroll;
+}
+
+.heading, .calendar, .day-details {
+    background-color: #222222;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #faefc5;
+}
+
+p {
+    color: #ffffff;
+    margin-top: 15px;
+}

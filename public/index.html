@@ -1,0 +1,50 @@
+ <!--
+     Author: Donavan Borges
+     CS 132 Spring 2024
+     Date: June 19, 2024
+
+     This is the login.html page for my fitness logger and generator app, FitLog. 
+     This serves as the login and register page for my application.
+     This login system does not perform proper authorization, but each user that 
+     is logged in will be able to use the application with their own specific data.
+
+     \(G_G)/
+        |
+        |
+       /\
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FitLog - Login</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Welcome to FitLog</h1>
+
+        <div class="form-container">
+            <h2>Login</h2>
+            <form id="loginForm" class="user-form">
+                <input type="text" id="loginName" placeholder="Username" required>
+                <input type="email" id="loginEmail" placeholder="Email" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <p>- - - - - - - - - - or - - - - - - - - - -</p>
+        <div class="form-container">
+            <h2>Register</h2>
+            <form id="registerForm" class="user-form">
+                <input type="text" id="registerName" placeholder="Username" required>
+                <input type="email" id="registerEmail" placeholder="Email" required>
+                <input type="text" id="registerPhone" placeholder="Phone Number" required>
+                <button type="submit">Register</button>
+                <div id="message-box" class="hidden"></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

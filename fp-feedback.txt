@@ -1,0 +1,34 @@
+Please fill out the following and submit with your Final Project submission 
+(added to help us know what to focus on when grading, what was intentionally incomplete, etc.):
+
+1. What is your estimated grade for the Final Project (roughly of 100)? For partner projects,
+   do you think the workload distribution was fair?
+I believe that I am going to recieve a 70 due to some parts missing, like peer feedback and fp
+demo on discord. I did not get the chance to do these steps.
+
+2. What is your estimated grade for the course (letter grade)? You can support your
+   estimate with examples of demonstrated engagement in the course material, strengths
+   (and weaknesses) over the term, and growth throughout the material (some assignment
+   grading feedback was delayed, but we would like to know what resources you used to
+   iterate on the material, such as lectures, OH, Discord, etc.)
+I believe that I will recieve a B for the class because I missed a few points during my 
+HW assignmnets. Fourtunately, I recieved good scores or my CPs throughout the term, but I 
+thing that the final project grade will drop me down a little bit. Throughout the term, I 
+engaged as much as I can, like going to class, office hours, in-person grading, and discord 
+post. As seen with my final project, I believe that learned so many great techniques that I
+continued to implement within my CPs and final project. I tried to implement as much feedback 
+as I can throughout my assignments. Similar to what was seen throughout the term, my weakness 
+is my CSS. This is because I do not have the best structure when it comes to organizing my styles.
+
+3. To what extent would you like feedback in your project (e.g. thorough, particular areas of the
+   project, or just a grade)?
+I believe just a grade is fine.
+
+4. Anything else you would like El to know when grading?
+Thank you so much for your patience with me throughout the term. I apologize that I turned some of 
+my assignments late, but I really enjoyed your class. Thank you for helping me realize that web 
+development is something that I am passionate for!
+
+5. Are you open to sharing your project/reflection for future terms? If so, would you
+   like named credit or anonymous?
+I am open to sharing my project for future terms, and I would like named credit.

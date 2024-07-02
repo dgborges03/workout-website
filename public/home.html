@@ -1,0 +1,76 @@
+ <!--
+     Author: Donavan Borges
+     CS 132 Spring 2024
+     Date: June 19, 2024
+
+     This is the index.html page for my fitness logger and generator app, FitLog. 
+     This serves as the home page for my application.
+
+     \(G_G)/
+        |
+        |
+       /\
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FitLog - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="calendar.css">
+    <script src="calendar.js" defer></script>
+</head>
+<body>
+    <aside class="sidebar">
+        <header>
+            <h1>FitLog</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="generator.html">Generate Workout</a></li>
+                <li><a href="saved.html">Saved Workouts</a></li>
+            </ul>
+        </nav>
+        <footer>
+            <a href="index.html" id="logout-link" class="sign-out">Sign Out</a>
+        </footer>
+    </aside>
+    <div class="content">
+        <section class="heading">
+            <h2>Welcome to FitLog!</h2>
+            <p>Select and click on a date to log your workout!</p>
+        </section>
+        <!-- Calendar was inspired by James Q Quick on Youtube 
+        https://youtu.be/_Kdbs4iukcM?si=7wJcoAwNYFfQMcrB -->
+        <section id="calendar" class="calendar">
+            <div class="header">
+                <button class="navigation" id="prev-month">&#8249;</button>
+                <h2 id="month"></h2>
+                <button class="navigation" id="next-month">&#8250;</button>
+            </div>
+            <div id="calendar-days">
+                <!-- This will be populated by the calendar days -->
+            </div>
+        </section>
+        <p>Created by Donavan Borges and inspired by Reddit User akshat207</p>
+    </div>
+    <!-- Modal Creation Inspired by Youtube Tutorials -->
+    <section id="workout-modal">
+        <div>
+            <div class="modal-header">
+                <h2 id="modal-date">Workout for Date</h2>
+                <button id="close-modal-btn" class="close-icon">&times;</button>
+            </div>
+            <select id="workout-select">
+                <!-- Options added dynamically -->
+            </select>
+            <button id="add-workout-btn">Add Workout</button>
+            <div id="workout-details" class="workout-details">
+                <!-- Workout cards will be appended here -->
+            </div>
+        </div>
+    </section>
+</body>
+</html>
