@@ -4,7 +4,7 @@
  * Date: June 4, 2024
  * 
  * Sever-side Javascript for the my FitLog applicaiton. It is an API created
- * to handle users' login and registration and workout logger and management.
+ * to handle users' login and registration and workouts logger and management.
  */
 
 

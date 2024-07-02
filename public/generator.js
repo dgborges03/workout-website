@@ -3,7 +3,7 @@
  * CS 132 Spring 2024
  * Date: June 19, 2024
  * 
- * Client-side JavaScript for generating custom workouts on the FitLog application.
+ * Client-side JavaScript for generating custom workout on the FitLog application.
  */
 
 (function() {

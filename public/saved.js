@@ -3,7 +3,7 @@
  * CS 132 Spring 2024
  * Date: June 19, 2024
  * 
- * Client-side JavaScript for displaying and managing saved workouts on the FitLog application.
+ * Client-side JavaScript for displaying and managing saved workout on the FitLog application.
  */
 
 (function() {

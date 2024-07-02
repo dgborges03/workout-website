@@ -3,7 +3,7 @@
  * CS 132 Spring 2024
  * Date: June 19, 2024
  * 
- * Client-side JavaScript for displaying and managing the calendar and its workouts.
+ * Client-side JavaScript for displaying and managing the calendar and its workout.
  */
 
 (function() {
